@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.shabab.housing_mob.MainActivity"
+
+  >
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:dividerHeight="10.0sp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true" android:divider="@android:color/transparent"
+        android:paddingRight="5dip" android:paddingLeft="5dip" android:paddingTop="1dip"
+        android:paddingBottom="1dip" android:listSelector="@android:color/transparent"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginTop="10dip" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customborders"
+        android:layout_weight="80"
+        android:padding="10dip"
+        android:layout_marginTop="5dip"
+        android:id="@+id/relativeLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textColor="#000000"
+            android:textSize="@dimen/fon_size"
+            android:text="kkkkkk"
+            android:layout_below="@+id/textView6"
+            android:layout_alignRight="@+id/textView6"
+            android:layout_alignEnd="@+id/textView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textColor="#000000"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="@dimen/fon_size"
+            android:text="pojnjjn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textColor="#000000"
+            android:textSize="@dimen/fon_size"
+            android:text="88988988"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textColor="#000000"
+            android:layout_alignTop="@+id/textView6"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:textSize="@dimen/fon_size"
+            android:text="jjjjjjj" />
+    </RelativeLayout>
+
+</RelativeLayout>

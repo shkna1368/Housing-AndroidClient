@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.shabab.housing_mob.MainActivity"
+
+  >
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:dividerHeight="10.0sp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true" android:divider="@android:color/transparent"
+        android:paddingRight="5dip" android:paddingLeft="5dip" android:paddingTop="1dip"
+        android:paddingBottom="1dip" android:listSelector="@android:color/transparent"/>
+
+</RelativeLayout>

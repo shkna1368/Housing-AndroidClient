@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customborders"
+        android:layout_weight="80"
+        android:padding="10dip"
+        android:layout_marginTop="5dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textCity"
+            android:textColor="#000000"
+            android:textSize="@dimen/fon_size"
+            android:text="kkkkkk"
+            android:layout_below="@+id/textRoom"
+            android:layout_alignRight="@+id/textRoom"
+            android:layout_alignEnd="@+id/textRoom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textArea"
+            android:textColor="#000000"
+            android:layout_alignTop="@+id/textCity"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="@dimen/fon_size"
+            android:text="pojnjjn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textRoom"
+            android:textColor="#000000"
+            android:textSize="@dimen/fon_size"
+            android:text="88988988"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textPrice"
+            android:textColor="#000000"
+            android:layout_alignTop="@+id/textRoom"
+            android:layout_alignLeft="@+id/textArea"
+            android:layout_alignStart="@+id/textArea"
+            android:textSize="@dimen/fon_size"
+            android:text="jjjjjjj" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="Animations" parent="@android:Animation" />
+    <style name="Animations.SplashScreen">
+        <item name="android:windowEnterAnimation">@anim/appear</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@style/Animations.SplashScreen</item>
+    </style>
+
+    <style name="MyTranslucentTheme" parent="android:Theme.Translucent">
+        <item name="android:windowBackground">@color/transparent_black</item>
+    </style>
+    <style name="popupwindow_animation">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_enter</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_exit</item>
+    </style>
+
+
+    <declare-styleable name="CircleLayout">
+        <attr name="innerRadius" format="dimension" />
+        <attr name="sliceDivider" format="reference|color" />
+        <attr name="innerCircle" format="reference|color" />
+        <attr name="angleOffset" format="float" />
+        <attr name="angleRange" format="float" />
+        <attr name="layoutMode">
+            <enum name="normal" value="1" />
+            <enum name="pie" value="2" />
+        </attr>
+        <attr name="dividerWidth" format="dimension" />
+    </declare-styleable>
+
+
+   <!-- <style name="BarraProgreso" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:indeterminate">true</item>
+    </style>-->
+
+
+
+
+
+    <color name="transparent_black">#DA000000</color>
+
+</resources>

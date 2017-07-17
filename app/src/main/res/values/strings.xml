@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">خانو</string>
+    <string name="register">Register</string>
+    <string name="houses">Houses</string>
+    <string name="share">Share</string>
+    <string name="name">نام</string>
+    <string name="city">شهر</string>
+    <string name="tel">تلفن</string>
+    <string name="save">ثبت نام</string>
+    <string name="city2">شهر :</string>
+    <string name="area">مساحت :</string>
+    <string name="room">اتاق خواب :</string>
+    <string name="peice">قیمت :</string>
+
+
+
+
+
+
+
+
+</resources>
+
+

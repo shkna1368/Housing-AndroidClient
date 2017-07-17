@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="overscroll">#33b5e5</color>
+    <color name="grey_background">#ffadadad</color>
+    <color name="green_background">#ff08b7a7</color>
+    <color name="adv">#00aeef</color>
+    <color name="orange">#FF9900</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+    <color name="range_sazmani">#c80a0a</color>
+    <color name="top_color">#c80a0a</color>
+    <color name="neveshteha">#FFBF57</color>
+    <color name="back_color">#fcf2fa</color>
+    <color name="header_text">#FFFFFF</color>
+
+</resources>
